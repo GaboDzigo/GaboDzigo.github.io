@@ -1,0 +1,101 @@
+
+html {
+    box-sizing: border-box;
+    color: white;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/stars-1436950_1280.jpg);
+  }
+  h1, h3,legend {
+    font-family: 'Caveat', cursive;
+  font-family: 'Merienda', cursive;
+  }
+  .wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #203354;
+  }
+  p {
+    margin-bottom: 0;
+    margin-top: 2rem;
+  }
+  section {
+    flex-basis: 57%;
+    margin-right: 10%;
+  }
+  aside {
+    flex-basis: 33%;
+  }
+  p, [for="abtype"], [for="comments"]{
+      margin-bottom: 0%;
+      margin-top: 2rem;
+      /* margin 2rem 0 0 0 */
+  
+  }
+   fieldset {
+      border: 2px solid #E1D2D6;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+  }
+  legend {
+      font-weight: bold;
+      font-size: 1.3rem;
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
+      display: block;
+  }
+  label {
+     display: block;
+     padding-bottom: 0.3;
+  
+  }
+  textarea{
+       height: 7rem;
+       padding: 1rem;
+  }
+  select {
+      font-size: 1rem;
+  }
+  
+  button {
+      font-size: 1rem;
+      margin: 0.5rem 0;
+      background-color: #8278AD;
+      color: white;
+      padding: 0.5rem 0.7rem;
+      border-radius: 10px;
+  }
+  button:hover {
+      background-color: white;
+      color: #8278AD;
+  }
+  /* fix width!!!!! */
+  input:not([type="radio"]):not([type="checkbox"]), textarea, select  {
+      display: block;
+      width: 20rem;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1rem;
+      padding: 0 1rem;
+      border-radius: 10px;
+  
+  }
+  .avatar {
+    margin-bottom: 20px;
+    border: 3px dashed;
+    border-radius: 10px;
+  }
+  .google-map {
+    border-radius: 10px;
+  }
+  
