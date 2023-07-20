@@ -45,7 +45,7 @@ html {
   }
    fieldset {
       border: 2px solid #E1D2D6;
-      border-radius: 50%;
+      border-radius: 10px;
       margin-bottom: 2rem;
   }
   legend {
@@ -97,5 +97,6 @@ html {
   }
   .google-map {
     border-radius: 10px;
+   
   }
   
