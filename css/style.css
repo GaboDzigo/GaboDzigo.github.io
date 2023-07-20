@@ -45,7 +45,7 @@ html {
   }
    fieldset {
       border: 2px solid #E1D2D6;
-      border-radius: 10px;
+      border-radius: 50%;
       margin-bottom: 2rem;
   }
   legend {
